@@ -1,0 +1,9 @@
+.titulo1{
+    display: flex;
+    justify-content: center;
+}
+.navegadores nav {
+    display: flex;
+    justify-content: center;
+
+}
