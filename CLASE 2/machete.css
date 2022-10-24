@@ -1,9 +1,111 @@
-.titulo1{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+:root {
+    --font-family-cursiva:'Montserrat', sans-serif;
+    --font-family: 'Montserrat', sans-serif;
+    --black: black; 
+    --white: #fafafa   
+}
+body{
+    margin: 0%;
+}
+.navegador {
+    height: 90px;
+    background-color: var(--black);
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+img {
+    height: 100px;
+    width: 100px;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.menu ul li {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: var(--font-family)
+}
+
+.Bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    background-color: BLUE;
+    background-image: url(https://img.freepik.com/vector-gratis/patron-espacio-transparente-color_102902-2360.jpg?w=826&t=st=1666552953~exp=1666553553~hmac=724bba205b915893ef523600ce14379ac3dd33acc06feda7c438a54a40d16088);
+    background-repeat: repeat
+}
+.saludo h1 {
+    font-family: var(--font-family);
+    font-size: 60px;
+    text-align: center;
+    color: var(--white);
+    transition: 2s;
+
+}
+h1{
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--black);
+}
+
+ .parrafos {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% ;
+ }
+
+h2 {
+    font-family: var(--font-family);
+    text-align: center;
+    color: var(--black);
+}
+.video {
+    padding: 2%;
     display: flex;
     justify-content: center;
 }
-.navegadores nav {
+.TITULO3 {
     display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+} 
+.lista {
+    padding-right:  17%;
+    padding-left: 17%;
+    display: flex;
+    justify-content: space-between
+}
+
+.lista {
+    font-family: var(--font-family-cursiva);
+}
+.fotos {
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.datoscontacto {
+    display:flex; 
     justify-content: center;
 
+}
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
 }
